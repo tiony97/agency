@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "headingFont";
+  src: url("../Fonts/wondar-quason-free.ttf");
+}
+
+@font-face {
+  font-family: "textFont";
+  src: url("../Fonts/QuattrocentoSans-Regular.ttf");
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 10%;
+  background: #414042;
+}
+
+h1,
+h2,
+h3,
+h4,
+span {
+  font-family: "headingFont";
+}
+
+p,
+a {
+  font-family: "textFont";
+  font-size: 17px;
+}
+
+a {
+  cursor: cell;
+}
+
+footer {
+  background: #414042;
+  color: #FFFFFF;
+}
+
+footer .top {
+  min-height: 30vh;
+}
+
+footer .bottom {
+  min-height: 40vh;
+}
+
+/*----Home Page Styles----*/
+#homeLanding {
+  background: url("../Images/pexels-eberhard-grossgasteiger-1468555.jpg") no-repeat center;
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+#homeLanding .overlay {
+  opacity: 0.5;
+  z-index: 1;
+}
+
+#reviews {
+  background: url("../Images/pexels-pixabay-50686.jpg") no-repeat center;
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+#reviews .overlay {
+  opacity: 0.5;
+  z-index: 1;
+}
+
+#categories .category {
+  height: 450px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: cell;
+}
+
+#categories .category:hover {
+  background-position-x: left;
+}
+
+#categories .category1 {
+  background: url("../Images/pexels-pixabay-50686.jpg") no-repeat center;
+  background-size: cover;
+}
+
+#categories .category2 {
+  background: url("../Images/pexels-eberhard-grossgasteiger-1468555.jpg") no-repeat center;
+  background-size: cover;
+}
+
+#categories .category3 {
+  background: url("../Images/pexels-pixabay-50686.jpg") no-repeat center;
+  background-size: cover;
+}
+
+#categories .category4 {
+  background: url("../Images/pexels-eberhard-grossgasteiger-1468555.jpg") no-repeat center;
+  background-size: cover;
+}
+/*# sourceMappingURL=main.css.map */

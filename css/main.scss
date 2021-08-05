@@ -1,0 +1,111 @@
+//Variables
+$text_light: #FFFFFF;
+$text_dark: #414042;
+$accent: #48A9A6;
+//Fonts
+@font-face {
+    font-family: "headingFont";
+    src: url("../Fonts/wondar-quason-free.ttf");
+}
+
+@font-face {
+    font-family: "textFont";
+    src: url("../Fonts/QuattrocentoSans-Regular.ttf");
+}
+
+//Stylesheets
+//Global Styles
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    height: 10%;
+    background: $text_dark;
+}
+
+h1,
+h2,
+h3,
+h4,
+span {
+    font-family: "headingFont";
+}
+
+p,
+a {
+    font-family: "textFont";
+    font-size: 17px;
+}
+
+a {
+    cursor: cell
+}
+
+footer {
+    background: $text_dark;
+    color: $text_light;
+    .top {
+        min-height: 30vh;
+    }
+    .bottom {
+        min-height: 40vh;
+    }
+}
+
+
+/*----Home Page Styles----*/
+
+#homeLanding {
+    background: url('../Images/pexels-eberhard-grossgasteiger-1468555.jpg') no-repeat center;
+    background-size: cover;
+    color: $text_light;
+    .overlay {
+        opacity: 0.5;
+        z-index: 1;
+    }
+}
+
+#reviews {
+    background: url('../Images/pexels-pixabay-50686.jpg') no-repeat center;
+    background-size: cover;
+    color: $text_light;
+    .overlay {
+        opacity: 0.5;
+        z-index: 1;
+    }
+}
+
+#categories {
+    .category {
+        height: 450px;
+        transition: all .5s ease-in-out;
+        cursor: cell;
+        &:hover {
+            background-position-x: left;
+        }
+    }
+    .category1 {
+        background: url('../Images/pexels-pixabay-50686.jpg') no-repeat center;
+        background-size: cover;
+    }
+    .category2 {
+        background: url('../Images/pexels-eberhard-grossgasteiger-1468555.jpg') no-repeat center;
+        background-size: cover;
+    }
+    .category3 {
+        background: url('../Images/pexels-pixabay-50686.jpg') no-repeat center;
+        background-size: cover;
+    }
+    .category4 {
+        background: url('../Images/pexels-eberhard-grossgasteiger-1468555.jpg') no-repeat center;
+        background-size: cover;
+    }
+}
