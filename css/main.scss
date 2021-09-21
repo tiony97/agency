@@ -1,7 +1,7 @@
 //Variables
 $text_light: #FFFFFF;
 $text_dark: #414042;
-$accent: #48A9A6;
+$accent: #482342;
 //Fonts
 @font-face {
     font-family: "headingFont";
@@ -50,7 +50,7 @@ a {
 }
 
 footer {
-    background: $text_dark;
+    background: $accent;
     color: $text_light;
     .top {
         min-height: 30vh;
@@ -61,14 +61,14 @@ footer {
 }
 
 .active {
-    color: $accent;
+    color: $text_dark;
     text-decoration: underline;
 }
 
 /*Home Page Styles*/
 
 #homeLanding {
-    background: url('../Images/pexels-eberhard-grossgasteiger-1468555.jpg') no-repeat center;
+    background: url('../Images/landing.jpeg') no-repeat center;
     background-size: cover;
     color: $text_light;
     .overlay {
@@ -78,7 +78,7 @@ footer {
 }
 
 #reviews {
-    background: url('../Images/pexels-pixabay-50686.jpg') no-repeat center;
+    background: url('../Images/pexels-edmond-dantès-8070634.jpg') no-repeat center top;
     background-size: cover;
     color: $text_light;
     .overlay {
@@ -119,7 +119,7 @@ footer {
 #aboutLanding {
     @extend #homeLanding;
     min-height: 70vh;
-    background-image: url('../Images/pexels-pixabay-50686.jpg')
+    background-image: url('../Images/logo.jpeg')
 }
 
 #aboutSummary {
@@ -129,7 +129,7 @@ footer {
 }
 
 #mission {
-    background: url('../Images/mumbai.png') no-repeat center center;
+    background: url('../Images/WhatsApp\ Image\ 2021-09-17\ at\ 4.03.29\ AM\ \(2\).jpeg') no-repeat center center;
     background-size: cover;
     
     .overlay {

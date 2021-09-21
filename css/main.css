@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "headingFont";
   src: url("../Fonts/Glorifydemo-BW3J3.otf");
@@ -44,7 +45,7 @@ a {
 }
 
 footer {
-  background: #414042;
+  background: #482342;
   color: #FFFFFF;
 }
 
@@ -57,13 +58,13 @@ footer .bottom {
 }
 
 .active {
-  color: #48A9A6;
+  color: #414042;
   text-decoration: underline;
 }
 
 /*Home Page Styles*/
 #homeLanding, #aboutLanding, #servicesLanding, #contactLanding {
-  background: url("../Images/pexels-eberhard-grossgasteiger-1468555.jpg") no-repeat center;
+  background: url("../Images/landing.jpeg") no-repeat center;
   background-size: cover;
   color: #FFFFFF;
 }
@@ -74,7 +75,7 @@ footer .bottom {
 }
 
 #reviews {
-  background: url("../Images/pexels-pixabay-50686.jpg") no-repeat center;
+  background: url("../Images/pexels-edmond-dantès-8070634.jpg") no-repeat center top;
   background-size: cover;
   color: #FFFFFF;
 }
@@ -118,7 +119,7 @@ footer .bottom {
 /*About page styles*/
 #aboutLanding, #servicesLanding, #contactLanding {
   min-height: 70vh;
-  background-image: url("../Images/pexels-pixabay-50686.jpg");
+  background-image: url("../Images/logo.jpeg");
 }
 
 #aboutSummary .summaryImg {
@@ -126,7 +127,7 @@ footer .bottom {
 }
 
 #mission {
-  background: url("../Images/mumbai.png") no-repeat center center;
+  background: url("../Images/WhatsApp Image 2021-09-17 at 4.03.29 AM (2).jpeg") no-repeat center center;
   background-size: cover;
 }
 
